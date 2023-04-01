@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  color: hsl(228, 12%, 48%);
+}
+
+body{
+    background-color: hsl(30, 38%, 92%) ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+main{
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+    left: 25%;
+    right: 25%;
+    display: flex;
+    max-width: 600px;
+    justify-content: center;
+    margin: auto;
+}
+
+img{
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+article{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0 10px 10px 0;
+}
+
+h3, strong{
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+}
+
+h3{
+  font-size: 46px;
+  color: hsl(212, 21%, 14%);
+}
+
+h4{
+  font-size: 20px;
+  letter-spacing: .2cm;
+  text-transform: uppercase;
+}
+
+strong{
+  color: hsl(158, 36%, 37%);
+  font-size: 44px;
+}
