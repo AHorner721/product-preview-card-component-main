@@ -22,12 +22,13 @@ body{
 
 main{
     position: absolute;
-    top: 25%;
-    bottom: 25%;
-    left: 25%;
-    right: 25%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     display: flex;
-    max-width: 600px;
+    max-width: 700px;
+    max-height: 500px;
     justify-content: center;
     margin: auto;
 }
@@ -40,6 +41,7 @@ img{
 article{
     background-color: hsl(0, 0%, 100%);
     border-radius: 0 10px 10px 0;
+    padding: 20px;
 }
 
 h3, strong{
@@ -61,4 +63,25 @@ h4{
 strong{
   color: hsl(158, 36%, 37%);
   font-size: 44px;
+}
+
+button{
+  outline: none;
+  border: none;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  font-weight: 500;
+  font-size: 20px;
+  padding: 14px 24px;
+  border-radius: 10px;
+  width: 80%;
+}
+
+h3, h4, .price, p{
+  padding-bottom: 18px;
+}
+
+span{
+  text-decoration: line-through;
+  margin-left: 20px;
 }
